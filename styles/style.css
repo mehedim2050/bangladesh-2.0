@@ -33,7 +33,7 @@ text-align: left;
 margin: 0px 48px;
 gap: 48;
 border-radius: 8px;
-
+margin-left: 1000px;
 }
 /* banner styles */
 .banner-title{
@@ -100,4 +100,436 @@ font-weight: 500;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
+}
+.card-title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+gap: 80;
+margin-left: 200px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    padding: 32px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   border-radius: 16px;
+   margin-left: 200px;
+   gap: 80px;
+ 
+}
+.card-title{_
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+padding: 0px;
+}
+.card-2-title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+margin-left: 200px;
+
+}
+.card-2-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+margin-left: 200px;
+}
+.card-2{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 32px;
+    border-radius: 16px;
+    
+} 
+
+.card-2-container{
+    display: flex;
+    gap: 24px;
+  margin-left: 190px;
+  
+}
+.card-2-title1{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+}
+.card-2-description1{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+order: 1;
+gap: 12;
+position: static;
+width: 346.67px;
+height: 72px;
+}
+.card-2-btn{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left; 
+    flex: none;
+    padding: 11px 20px 11px 20px;
+    gap: 48;
+    border-radius: 8px;
+background: rgb(9, 161, 92);
+}
+.card-2-btn{
+background: rgb(84, 144, 245);
+}
+.lorem-container{
+    margin-left: 200px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 48px 24px 48px 24px;
+}
+.lorem-description{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+background-image: url("../assets/quote-bg.png");
+background-repeat: no-repeat;
+background-position:0px 4.57px;
+
+
+
+}
+.lorem-title{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 4px 0px;
+gap: 4;
+}
+.lorem-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 4px 0px;
+gap: 4;
+}
+.news-container{
+    margin-left: 200px;
+}
+.news-title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin: 24px 0px;
+gap: 24;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+}
+.satellite-btn{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+margin: 0px 48px;
+gap: 48;
+padding: 13px 26px 13px 26px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+margin: 32px 0px;
+gap: 48;
+padding: 10px 26px 10px 26px;
+}
+.satellite-title{
+    color: rgba(14, 14, 14, 0.8);
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+}
+.satellite-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin: 12px 0px;
+    order: 3;
+    margin: 12px 0px;
+    gap: 12;
+}
+.satellite-container{
+    margin-left: 200px;
+   
+}
+.satellite-pic{
+    background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
+    margin: 12px 0px;
+}
+.satellite-date{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 0px 12px;
+gap: 12;
+
+}
+.satellite-dt{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 0px 12px;
+gap: 12;
+}
+.satellite-pic1{
+    border-radius: 24px;
+background: url(image);
+margin: 0px 32px;
+position: static;
+width: 408px;
+height: 306px;
+margin-right:2000px;
+}
+.satellite-container{
+ 
+border-radius: 24px;
+background-color: rgb(255, 255, 255);
+}
+
+.donate-title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+gap: 24;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-btn{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+gap: 24;
+padding: 20px;
+
+
+}
+.donate-container{
+margin-left: 200px;
+}
+.donate-btn1{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+background: rgb(198, 228, 214);
+margin: 12px 0px;
+gap: 12;
+padding: 20px;
+}
+.other-container{
+    box-sizing: border-box;
+background: rgb(255, 255, 255);
+text-align: center;
+margin: 32px 0px;
+gap: 24;
+padding: 20px 40px 20px 40px;
+
+}
+.other-btn{
+    color: rgba(14, 14, 14, 0.3);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+}
+.done-btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap: 48;
+padding: 17px 34px 17px 34px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+gap: 48;
+padding: 17px 34px 17px 34px;
+margin: 32px 0px;
+  }
+.done-container{
+    text-align: center;
+}
+.subscribe-container{
+    border-radius: 15px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 80px 0px;
+background: rgb(198, 228, 214);
+gap: 64;
+padding: 80px 100px 80px 100px;
+}
+.subscribe-title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin: 16px 0px;
+gap: 16;
+}
+.subscribe-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 16px 0px;
+gap: 16;
+}
+.subscribe-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+order: 2;
+gap: 24;
+}
+.bangladesh-title{
+    color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin: 16px 0px;
+gap: 16;
+text-align: center;
+justify-content: center;
+ border-bottom: 1px solid rgba(14, 14, 14, 0.15); 
+
+}
+.bangladesh-container{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 80px 0px;
+    gap: 32;
+padding: 50px 160px 50px 160px;
+
 }
