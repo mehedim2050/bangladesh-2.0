@@ -722,3 +722,12 @@ justify-content: center;
     gap: 32;
 padding: 50px 160px 50px 160px;
 margin-left: 190px;
+}
+.donate-btn:hover{
+    color: chartreuse;
+    background-color: rgb(255, 0, 149);
+}
+.donate-btn1:hover{
+    color: chartreuse;
+    background-color: deeppink;
+}
