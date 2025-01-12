@@ -6,7 +6,11 @@
   }
   
 
+*body{
+    visibility: hidden;
+    background: rgb(30, 30, 30);
 
+}
 nav{
     display:flex ;
     align-items: center;
@@ -101,39 +105,85 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
 }
-.card-title{
+.pillars{
     color: rgb(14, 14, 14);
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
 text-align: left;
-gap: 80;
-margin-left: 200px;
+margin: 32px 0px;
+gap: 32;
+padding: 0px;
+margin-left: 100px;
 }
 .card-container{
     display: flex;
-    gap: 24px;
+    /* width: 302px;
+height: 244px; */
+box-sizing: border-box;
+/* border: 1px solid rgba(14, 14, 14, 0.15); */
+border-radius: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+gap: 24px;
+margin-left: 120px;
+
 }
-.card{
-    padding: 32px;
+
+/* .card{
+    padding: 12px;
    background-color: rgb(255, 255, 255);
    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
    border-radius: 16px;
    margin-left: 200px;
    gap: 80px;
- 
+   box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+position: static;
+width: 302px;
+height: 244px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+} */
+
+.card{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+/* border: 1px solid rgba(14, 14, 14, 0.15); */
+border-radius: 16px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+gap: 24;
+padding: 24px;
+
+
 }
-.card-title{_
+.card-title{
     color: rgba(14, 14, 14, 0.8);
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin: 12px 0px;
-gap: 12;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left; 
+    margin: 12px 0px;
+    flex: none;
+    gap: 12;
 padding: 0px;
+
 }
 .card-2-title{
     color: rgb(14, 14, 14);
@@ -166,17 +216,53 @@ margin-left: 200px;
 }
 .card-2{
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); */
     padding: 32px;
     border-radius: 16px;
     
 } 
-
+.card-21{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-22{
+    box-sizing: border-box;
+border-radius: 16px;
+padding: 32px;
+background: rgb(198, 228, 214);
+}
+.card-23{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    background: rgb(247, 235, 207);   
+}
 .card-2-container{
     display: flex;
     gap: 24px;
-  margin-left: 190px;
-  
+  margin-left: 180px;
+
+}
+.card-2-btn3{
+    border-radius: 8px;
+    margin: 10px 0px;
+background: rgb(9, 161, 92);
+gap: 48;
+padding: 11px 20px 11px 20px;
+flex: none;
+order: 1;
+}
+.card-2-btn2{
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+    background: rgb(255, 194, 57);
+    gap: 48;
+padding: 11px 20px 11px 20px;
 }
 .card-2-title1{
     color: rgba(14, 14, 14, 0.8);
@@ -218,6 +304,8 @@ background: rgb(9, 161, 92);
 .card-2-btn{
 background: rgb(84, 144, 245);
 }
+
+
 .lorem-container{
     margin-left: 200px;
     box-sizing: border-box;
@@ -322,25 +410,39 @@ gap: 12;
     margin: 12px 0px;
     gap: 12;
 }
-.satellite-container{
-    margin-left: 200px;
-   
+.satellite1{
+    border-radius: 24px;
+margin-left: 200px;
+background: rgb(255, 255, 255);
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+gap: 32;
+padding: 48px;
 }
+.satellite{
+    border-radius: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 32;
+padding: 48px;
+background: rgb(255, 255, 255);
+margin: 24px 0px;
+margin-left: 200px;
+}
+
 .satellite-pic{
     background: url(8f195aac6f4a2c38bbf72c1fbeddbf9b);
     margin: 12px 0px;
+    border-radius: 24px;
+padding-left: 20px;
+gap: 32px;
 }
-.satellite-date{
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin: 0px 12px;
-gap: 12;
-
+#sp{
+    border-radius: 24px;  
+position: static;
+width: 408px;
+height: 306px;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
 }
 .satellite-dt{
     color: rgba(14, 14, 14, 0.7);
@@ -352,6 +454,7 @@ letter-spacing: 0%;
 text-align: left;
 margin: 0px 12px;
 gap: 12;
+
 }
 .satellite-pic1{
     border-radius: 24px;
@@ -361,9 +464,10 @@ position: static;
 width: 408px;
 height: 306px;
 margin-right:2000px;
+border-radius: 24px;
 }
 .satellite-container{
- 
+ display: flex;
 border-radius: 24px;
 background-color: rgb(255, 255, 255);
 }
@@ -377,6 +481,7 @@ letter-spacing: 0%;
 text-align: center;
 margin: 24px 0px;
 gap: 24;
+margin-right: 400px;
 }
 .donate-description{
     color: rgba(14, 14, 14, 0.7);
@@ -395,7 +500,6 @@ text-align: center;
 }
 .donate-btn{
     color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
@@ -414,7 +518,7 @@ padding: 20px;
 
 }
 .donate-container{
-margin-left: 200px;
+margin-left: 400px;
 }
 .donate-btn1{
     box-sizing: border-box;
@@ -432,12 +536,71 @@ gap: 12;
 padding: 20px;
 }
 .other-container{
+    /* box-sizing: border-box;
+   
+    background: rgb(255, 255, 255); */
+}
+.btn--{
     box-sizing: border-box;
+    box-shadow: 0px 6px 50px 0px rgba(133, 134, 151, 0.06);
 background: rgb(255, 255, 255);
-text-align: center;
-margin: 32px 0px;
+position: static;
+width: 1032px;
+height: 64px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
 gap: 24;
 padding: 20px 40px 20px 40px;
+/* border-bottom: 1px solid rgba(235, 231, 231, 0.15); */
+text-align: center;
+justify-content: center;
+color: rgba(14, 14, 14, 0.3);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12;
+margin-left: 400px;
+border: none;
+}
+/* #btn{
+    box-sizing: border-box;
+    background: rgb(255, 255, 255); 
+    margin: 32px 0px;
+    gap: 24;
+padding: 20px 40px 20px 40px;
+
+position: static;
+width: 1032px;
+height: 64px;
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+gap: 12; */ */
+
+.other{
+    box-sizing: border-box;
+    margin: 32px 0px;
+    background: rgb(255, 255, 255); 
+    gap: 12;
+    position: static;
+width: 157px;
+height: 19px;
+text-align: center;
 
 }
 .other-btn{
@@ -446,9 +609,11 @@ font-size: 20px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
-text-align: left;
+text-align: center;
 margin: 12px 0px;
 gap: 12;
+text-align: center;
+border: none;
 }
 .done-btn{
     color: rgb(255, 255, 255);
@@ -479,6 +644,7 @@ margin: 32px 0px;
 background: rgb(198, 228, 214);
 gap: 64;
 padding: 80px 100px 80px 100px;
+margin-left: 200px;
 }
 .subscribe-title{
     color: rgb(14, 14, 14);
@@ -500,6 +666,58 @@ text-align: center;
 margin: 16px 0px;
 gap: 16;
 }
+.subscribe .search{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+
+}
+.search input{
+    border: none;
+    margin-left: 350px;
+}
+.search-btn{
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 0px 8px 8px 0px;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+position: static;
+width: 150px;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.search-email{
+    color: rgba(14, 14, 14, 0.3);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+/* text-align: center;
+justify-content: center; */
+border-radius: 8px 0px 0px 8px;
+gap: 24;
+padding: 18px 40px 18px 40px;
+position: static;
+width: 600px;
+
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
 .subscribe-subtitle{
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
@@ -509,6 +727,11 @@ letter-spacing: 0%;
 text-align: center;
 order: 2;
 gap: 24;
+
+}
+.search{
+    text-align: center;
+  
 }
 .bangladesh-title{
     color: rgb(14, 14, 14);
@@ -531,5 +754,4 @@ justify-content: center;
     margin: 80px 0px;
     gap: 32;
 padding: 50px 160px 50px 160px;
-
-}
+margin-left: 190px;
