@@ -119,46 +119,15 @@ margin-left: 100px;
 }
 .card-container{
     display: flex;
-    /* width: 302px;
-height: 244px; */
-box-sizing: border-box;
+/* box-sizing: border-box; */
 /* border: 1px solid rgba(14, 14, 14, 0.15); */
-border-radius: 16px;
 flex: none;
-order: 1;
-flex-grow: 0;
 margin: 0px 24px;
-background: rgb(255, 255, 255);
+/* background: rgb(255, 255, 255); */
 gap: 24px;
 margin-left: 120px;
-
+border: none;
 }
-
-/* .card{
-    padding: 12px;
-   background-color: rgb(255, 255, 255);
-   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-   border-radius: 16px;
-   margin-left: 200px;
-   gap: 80px;
-   box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
-position: static;
-width: 302px;
-height: 244px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 24;
-padding: 24px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 24px;
-} */
-
 .card{
     padding: 24px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -166,10 +135,9 @@ margin: 0px 24px;
 /* border: 1px solid rgba(14, 14, 14, 0.15); */
 border-radius: 16px;
 margin: 0px 24px;
-background: rgb(255, 255, 255);
-gap: 24;
+/* background: rgb(255, 255, 255); */
+gap: 24px;
 padding: 24px;
-
 
 }
 .card-title{
@@ -183,7 +151,6 @@ padding: 24px;
     flex: none;
     gap: 12;
 padding: 0px;
-
 }
 .card-2-title{
     color: rgb(14, 14, 14);
